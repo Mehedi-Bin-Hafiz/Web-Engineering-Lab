@@ -1,0 +1,28 @@
+.header {
+    box-sizing: border-box;
+    border: 1px solid black;
+    height: 40px;
+}
+.header .headerlist ul{
+    list-style:none;
+
+}
+.header .headerlist ul li{
+    margin-left: 200px;
+    float:left;
+
+}
+
+table,th,td{
+    border:1px solid forestgreen;
+    border-radius: 5px;
+}
+
+footer{
+    box-sizing: border-box;
+    border: 1px solid black;
+    height: 40px;
+    color: wheat;
+    background-color: black;
+
+}
