@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body style="margin: 30px;">
+
+        
+
+
+        <!--for loop-->
+
+        <table>
+            <tr>
+                <td>
+                   First Number: 
+                </td>
+                <td><input type="number" id ="FirstNumber"></td>
+            </tr>
+            <tr>
+                <td>
+                    Last Number:
+                </td>
+                <td><input type="number" id ="LastNumber"></td>
+            </tr>
+            
+           
+            <tr>
+            
+                <td ></td>
+                <td><input type="submit" id='btn' value="submit"></td>
+            </tr>
+        </table>
+
+    
+        
+        <script>
+            var submitbutton = document.getElementById('btn')
+
+            submitbutton.onclick = function(){
+                var first = document.getElementById('FirstNumber').value
+                var last = document.getElementById('LastNumber').value
+                for ( i=first; i<=last; i++){
+                    for(j=i; j>0 ; j--){
+                        document.write('<span style="font-size: 40px; text-align=center;">*</span>')
+
+                    }
+                    document.write('<br>')
+                    
+                }
+            }
+
+
+        </script>
+
+
+    </body>
+</html>
