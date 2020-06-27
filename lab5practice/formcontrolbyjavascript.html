@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body> 
+
+        <form style="text-align: center; margin-top:100px">
+            <span>First name: </span><input id="firstname" type="text" placeholder="Enter your first name"><br><br>
+            <span>Last name: </span><input id= 'lastname' type="text" placeholder="Enter your first name">
+            <br><br><button type="submit" id="btn" value="submit">submit</button>
+            <h1>Your full name is:<input type="text" id='res'></h1>
+        </form>
+        
+        
+
+
+        
+        <script>
+              
+                   var submitmee = document.getElementById('btn')
+                   console.log(submitmee)
+                   submitmee.onclick = function(){
+                   var firstnamee = document.getElementById('firstname').value
+                   var lastnamee = document.getElementById('lastname').value
+                   var fullnamee = firstnamee + " " + lastnamee
+                   console.log(fullnamee)
+                   document.getElementById('res').value = fullnamee
+                   }
+
+
+
+        </script>
+    </body>
+</html>
