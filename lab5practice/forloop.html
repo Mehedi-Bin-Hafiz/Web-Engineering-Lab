@@ -33,16 +33,16 @@
             <tr>
             
                 <td ></td>
-                <td><input type="submit" id='btn' value="submit"></td>
+                <td><input type="submit" id='btn' value="submit" onclick="submitbutton()"></td>
             </tr>
         </table>
 
     
         
         <script>
-            var submitbutton = document.getElementById('btn')
+    
 
-            submitbutton.onclick = function(){
+            function submitbutton(){
                 var first = document.getElementById('FirstNumber').value
                 var last = document.getElementById('LastNumber').value
                 for ( i=first; i<=last; i++){
