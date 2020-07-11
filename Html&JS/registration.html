@@ -1,0 +1,70 @@
+    <Html>  
+    <head>   
+    <title>  
+    Registration Page  
+    </title>  
+    </head>  
+    <body>  
+
+   <div style="margin-left:500px;">
+    <h1>Registration form</h1>
+    <form name ='reg' onsubmit="return validation()">  
+        <label> User Id: </label>         
+        <input type="text" name="Uid" size="15" >
+         <br> <br>  
+        Password:  
+        <input type="Password"  name="pass"> <br>  <br>
+        <label> Name </label>         
+        <input type="text" name="Name" size="15"/> <br> <br>  
+        Address  
+        <br>  
+        <textarea cols="30" rows="2" value="address">  
+        </textarea> 
+        <br> <br>
+
+       Country<select name="Country" id="pro">
+            <option value="volvo">Bangladesh</option>
+            <option value="saab">Pakistan</option>
+            <option value="mercedes">India</option>
+            <option value="audi">canada</option>
+          </select><br><br>
+        
+          <label>Zip code</label>         
+          <input type="text" name="Zip" size="15"/> <br> <br>  
+        
+        Email:  
+        <input type="email" id="email" name="email"/> <br>    
+        <br> <br>      
+        <label>   
+        Sex :  
+        </label> 
+        <input type="radio" name="male" id='radio1'/> Male 
+        <input type="radio" name="female" id= 'radio2'/> Female  
+        <br>  
+        <br>  
+        <label>   
+            language:  
+            </label> 
+            <input type="checkbox" id='checkme1' value='checkme'/> English
+            <input type="checkbox"  id='checkme2' value='checkme'/> Non English  
+            <br>  
+        <br>  
+    
+        About:  
+        <br>  
+        <textarea cols="30" rows="10" value="address">  
+        </textarea>  <br><br>
+    
+        <button type="submit" style="margin-left:80px;">Submit</button>
+        </form>   </div>
+
+
+        <script src="registration.js">
+ 
+
+        </script> 
+    
+    </body>  
+
+
+    </html>  

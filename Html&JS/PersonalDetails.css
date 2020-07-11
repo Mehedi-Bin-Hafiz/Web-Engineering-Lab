@@ -1,0 +1,42 @@
+form{
+    text-align: center;
+     
+}
+
+input[type=text] {
+    margin-left: 20px;
+    width: 30%;
+    padding: 8px 10px;
+    box-sizing: border-box;
+    
+  }
+
+  input[type=email] {
+    margin-left: 20px;
+    width: 30%;
+    padding: 8px 10px;
+    box-sizing: border-box;
+    
+  }
+
+  input[type=url] {
+    margin-left: 20px;
+    width: 30%;
+    padding: 8px 10px;
+    box-sizing: border-box;
+    
+  }
+
+div{
+    color: gray;
+    box-sizing: border-box;
+    width: 70%;
+    height: 500px;
+    margin: 0 auto;
+    display: inline-block;
+    margin-top: 10px;
+}
+form span{
+
+    color: rgb(83, 83, 238);
+}

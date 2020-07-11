@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+ <html class="no-js"> 
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="PersonalDetails.css">
+    </head>
+    <body>
+       <div>
+        <h1>Personal Details </h1>
+        <hr>
+        <form name ='personal' onsubmit="return validation()"> 
+            <span>*Name</span><input type="text" name="name" id="name" ><br><br> 
+            <span>*Email</span><input type="email" name='email' id="mail">
+            <p>Your valid email address?</p>
+            <span>*Phone</span><input type="text" name="phone" id='phone'>
+            <p>Your phone number?(only digits 0-9)</p>
+            <span>*Website</span><input type="url" name="web" id='web'>
+            <p>Your website?( http://and no space)</p>
+            Country<select name="country" id="pro">
+                <option value="volvo">Bangladesh</option>
+                <option value="saab">Pakistan</option>
+                <option value="mercedes">India</option>
+                <option value="audi">canada</option>
+              </select><br><br>
+            <span>*City</span><input type="text" name="city" id='city'>
+            <p>Your city?</p>
+            <span>*Zip</span><input type="text" name='zip' id='zip'>
+            <p>Your zip code?</p><br>
+            <button type="submit" style="border:none; padding: 10px; border-radius: 4px; background-color: skyblue;">submit</button>
+        </form>
+       </div>
+        
+        
+        
+    <script src="personalDetails.js">
+
+ 
+
+
+        </script>
+    </body>
+</html>

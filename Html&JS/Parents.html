@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html class="no-js">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="Parents.css">
+    </head>
+    <body>
+
+        <div style="float: left; width:400px;box-sizing: border-box; border-top:2px solid red; border-radius: 10px;  margin: 20px; margin-right: 50px; margin-left:250px">
+          <h1>Father</h1>
+          <hr>
+          <form >
+             Name <input type="text" placeholder="Enter Name" name='name'><br><br>
+              Mobile <input type="text" placeholder="Enter phone number" name="phone"><br><br>
+              NID <input type="text" placeholder="Enter NID"><br><br>
+              Profession <select name="Profession" id="pro">
+                  <option value="volvo">King</option>
+                  <option value="saab">Minster</option>
+                  <option value="mercedes">Pilot</option>
+                  <option value="audi">Teacher</option>
+                </select><br><br>
+                <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><input type="text" placeholder="Enter profession in detail"><br><br>
+
+              Nationality<select name="Nationality" id="pro">
+                  <option value="volvo">Bangladesh</option>
+                  <option value="saab">Pakistan</option>
+                  <option value="mercedes">India</option>
+                  <option value="audi">canada</option>
+                </select><br><br>
+
+              Yearly Income <input type="number" placeholder="Enter Yearly Income"><br><br>
+              Address <textarea type='text' placeholder="Enter Address">
+
+              </textarea><br><br>
+              IsLate 
+              <input type="radio" id="male" name="gender" value="male">
+              <label for="male">Yes</label><br>
+
+              <hr>
+
+          </form>
+      </div>
+
+
+      <div style="float: left; width:400px;box-sizing: border-box; border-top:2px solid red; border-radius: 10px;  margin: 20px; margin-right: 50px;">
+        <h1>Mother</h1>
+        <hr>
+        <form  name ='reg' onsubmit="return validation()">
+           Name <input type="text" placeholder="Enter Name" name="name"><br><br>
+            Mobile <input type="text" placeholder="Enter Mobile" name="phone"><br><br>
+            NID <input type="text" placeholder="Enter NID" name='mNID'><br><br>
+            Profession <select name="profe" id="pro">
+                <option value="volvo">King</option>
+                <option value="saab">Minster</option>
+                <option value="mercedes">Pilot</option>
+                <option value="audi">Teacher</option>
+              </select><br><br>
+              <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><input type="text" placeholder="Enter profession in detail"><br><br>
+
+            Nationality<select name="country" id="pro">
+                <option value="volvo">Bangladesh</option>
+                <option value="saab">Pakistan</option>
+                <option value="mercedes">India</option>
+                <option value="audi">canada</option>
+              </select><br><br>
+
+            Yearly Income <input type="number" placeholder="Enter Yearly Income"><br><br>
+            Address <textarea type='text' placeholder="Enter Address">
+
+            </textarea><br><br>
+            IsLate 
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Yes</label><br>
+
+            <hr>
+            <button type="submit" style="float: right; background-color: royalblue; padding: 10px; border-radius: 5px;color:white ; border:none; ">Submit</button>
+
+        </form> 
+
+        
+
+        
+
+        
+          
+      </div>
+        
+        
+        
+        <script src="parents.js"></script>
+    </body>
+</html>
