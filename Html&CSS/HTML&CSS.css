@@ -1,0 +1,78 @@
+.col-1{width: 10.59%; }
+.col-2{width: 16.66%; }
+.col-3{width: 24.5%; }
+.col-4{width: 32.2%; }
+.col-5{width: 41.33%; }
+.col-6{width: 50.33%; }
+.col-7{width: 65%;}
+.col-8{width: 66.66% ;}
+.col-9{width: 73%; }
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 98%;}
+
+[class *= col-]{
+    float: left;
+    border: 1px solid gray
+}
+
+.myheader{
+    background-color: darkcyan;
+    color: ghostwhite;
+    box-sizing: border-box;
+    height: 60px;
+    border: none;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.block{
+    height: 118px;
+    display: inline;
+}
+.content-height{
+    height: 250px;
+}
+.content-block{
+    display: inline;
+}
+
+.subheader{
+    height: 20px;
+    background-color: black;
+    margin-left: 3px;
+    margin-top: 20px;
+}
+
+.para1{
+    margin-left: 10px;
+    margin-top: 15px;
+    border: none;
+    height: 300px;
+    display: inline-block;
+}
+
+.para1sub1{
+        border: none;
+        height: 143px;
+        float: left;
+        width: 100%;
+      
+}
+.para1sub2{
+    margin-top: 13px;
+    clear: both;
+    border: none;
+    height: 143px;
+    display: block;
+    width: 100%;
+}
+
+.para3sub{
+        margin-bottom: 5px;
+        border: none;
+        height: 46px;
+        float: left;
+        width: 100%;
+
+}
